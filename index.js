@@ -3,9 +3,9 @@ const progressBar = require('./progressBar');
 const path = require('path');
 const fs = require('fs');
 
-const titanic = function(receivedSoundPath, receivedSoundTime) {
+const titafail = function(receivedSoundPath, receivedSoundTime) {
 	const mainPath = path.dirname(fs.realpathSync(__filename));
-	const soundPath = receivedSoundPath ? receivedSoundPath : path.join(mainPath, './fail-flaute');
+	const soundPath = receivedSoundPath ? receivedSoundPath : path.join(mainPath, './titafail');
 	const soundTime = receivedSoundTime ? receivedSoundTime : 38;
 
 	const linuxcmd = 'paplay ' + soundPath + '.ogg';
@@ -14,7 +14,7 @@ const titanic = function(receivedSoundPath, receivedSoundTime) {
 
 	const platform = process.platform;
 
-	console.log('titanic-fails ;-;');
+	console.log('titafail ;-;');
 
 	switch (platform) {
 		case 'linux':
@@ -36,8 +36,8 @@ const titanic = function(receivedSoundPath, receivedSoundTime) {
 	}
 };
 
-module.exports = titanic;
+module.exports = titafail;
 
 if (!module.parent) {
-	titanic();
+	titafail();
 }

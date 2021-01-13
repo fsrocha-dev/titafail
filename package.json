@@ -1,6 +1,6 @@
 {
   "name": "titafail",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "titanic fail flaute in the terminal",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,12 @@
     "titanic"
   ],
   "bin": {
-    "titanic": "./index.js"
+    "titafail": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/fsrocha-dev/titanic-fails/issues"
+    "url": "https://github.com/fsrocha-dev/titafail/issues"
   },
-  "homepage": "https://github.com/fsrocha-dev/titanic-fails",
+  "homepage": "https://github.com/fsrocha-dev/titafail",
   "author": "Frank Rocha",
   "license": "MIT",
   "dependencies": {
