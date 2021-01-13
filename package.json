@@ -1,0 +1,26 @@
+{
+  "name": "titanic-fails",
+  "version": "1.0.0",
+  "description": "titanic fail flaute in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "music",
+    "terminal",
+    "titanic"
+  ],
+  "bin": {
+    "titanic": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fsrocha-dev/titanic-fails/issues"
+  },
+  "homepage": "https://github.com/fsrocha-dev/titanic-fails",
+  "author": "Frank Rocha",
+  "license": "MIT",
+  "dependencies": {
+    "progress": "^2.0.3"
+  }
+}
