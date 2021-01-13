@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const titanic = function(receivedSoundPath, receivedSoundTime) {
 	const mainPath = path.dirname(fs.realpathSync(__filename));
-	const soundPath = receivedSoundPath ? receivedSoundPath : path.join(mainPath, './titanic-fails');
+	const soundPath = receivedSoundPath ? receivedSoundPath : path.join(mainPath, './fail-flaute');
 	const soundTime = receivedSoundTime ? receivedSoundTime : 38;
 
 	const linuxcmd = 'paplay ' + soundPath + '.ogg';
